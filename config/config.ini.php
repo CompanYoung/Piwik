@@ -137,3 +137,5 @@ PluginsInstalled[] = "Marketplace"
 PluginsInstalled[] = "WebsiteGroups"
 PluginsInstalled[] = "CustomTrackerJs"
 
+[Tracker]
+use_third_party_id_cookie = 1
