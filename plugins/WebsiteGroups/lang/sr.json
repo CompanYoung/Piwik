@@ -1,0 +1,12 @@
+{
+    "WebsiteGroups": {
+        "Edit": "Izmena grupe",
+        "AssignGroup": "Dodeli grupu %s",
+        "RenameGroup": "Promeni naziv grupe",
+        "NoGroup": "Bez grupe",
+        "NewGroupInputHelp": "Naziv grupe",
+        "AddNewGroup": "Dodaj novu grupu",
+        "Rename": "Promena naziva",
+        "NewGroupInputTitle": "Upišite naziv grupe koju želite da kreirate i pritisnite 'dodaj novu grupu'"
+    }
+}

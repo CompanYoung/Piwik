@@ -1,0 +1,12 @@
+{
+    "WebsiteGroups": {
+        "Edit": "संपादित करें समूह",
+        "AssignGroup": "एक समूह आवंटित करने के लिए %s",
+        "RenameGroup": "समूह का नाम बदलें",
+        "NoGroup": "कोई समूह",
+        "NewGroupInputHelp": "समूह का नाम",
+        "AddNewGroup": "नया समूह जोड़ें",
+        "Rename": "नाम बदलें",
+        "NewGroupInputTitle": "आप बनाना चाहते समूह और प्रेस का नाम दर्ज करें 'नया समूह जोड़ने'"
+    }
+}

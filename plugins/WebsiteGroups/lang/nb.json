@@ -1,0 +1,12 @@
+{
+    "WebsiteGroups": {
+        "Edit": "Rediger gruppe",
+        "AssignGroup": "Tilordne en gruppe til %s",
+        "RenameGroup": "Endre navn på gruppe",
+        "NoGroup": "Ingen gruppe",
+        "NewGroupInputHelp": "Gruppenavn",
+        "AddNewGroup": "Legg til ny gruppe",
+        "Rename": "Endre navn",
+        "NewGroupInputTitle": "Skriv inn navnet på gruppen som du vil lage og klikk «legg til ny gruppe»"
+    }
+}

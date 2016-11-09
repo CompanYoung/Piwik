@@ -1,0 +1,107 @@
+.website_groups_admin {
+
+  .rename_group {
+    .indicator {
+      display: inline-block;
+    }
+  }
+
+  .edit {
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 16px;
+  }
+
+  .assign_group {
+    width: auto;
+    position: static;
+    display: block;
+
+    .selectedGroup {
+      background-color: #ebeae6;
+    }
+
+    .custom_select {
+      background-color: white;
+      width: auto;
+      height: auto;
+      border: 0px;
+      margin: 10px 0px;
+    }
+
+    .custom_select_block {
+      visibility: visible;
+    }
+
+    .custom_select_ul_list {
+      border: 1px solid #ccc;
+
+      li {
+
+        .indicator {
+          background: url(plugins/MultiSites/images/loading-blue.gif) no-repeat center;
+          height: 20px;
+          width: 60px;
+          margin: auto;
+          border: 0 !important;
+          display: inline-block;
+        }
+
+        a {
+          max-width: none;
+        }
+
+        a:hover {
+          color: initial !important;
+          background-color: inital;
+          background: initial;
+        }
+      }
+
+      li:hover {
+        background-color: #ebeae6;
+        color: #4d4d4d;
+      }
+
+      li.selectedGroup a {
+        color: #4d4d4d;
+      }
+
+      &.successUpdatingGroup-add,
+      &.errorUpdatingGroup-add {
+        -webkit-transition: 1s linear all;
+        transition: 1s linear all;
+      }
+
+      &.errorUpdatingGroup-add,
+      &.successUpdatingGroup-add {
+        background: white !important;
+        color: #4d4d4d !important;
+      }
+
+      &.successUpdatingGroup-add-active {
+        background: #c3d6b7 !important;
+        color: white !important;
+      }
+
+      &.errorUpdatingGroup-add-active {
+        background: #d5bfc4 !important;
+        color: white !important;
+      }
+    }
+  }
+
+  .new_group_name {
+    width: 100px
+  }
+
+  .add_new_group {
+    background-color: #d3291f !important;
+    color: white;
+    border-radius: 3px;
+    margin: 12px 0 10px 0;
+    border: 0px !important;
+  }
+
+}

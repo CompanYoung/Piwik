@@ -1,0 +1,12 @@
+{
+    "WebsiteGroups": {
+        "Edit": "تحرير مجموعة",
+        "AssignGroup": "أسند مجموعة إلى %s",
+        "RenameGroup": "أعد تسمية مجموعة",
+        "NoGroup": "لا توجد مجموعة",
+        "NewGroupInputHelp": "إسم المجموعة",
+        "AddNewGroup": "أضف مجموعة جديدة",
+        "Rename": "أعد التسمية",
+        "NewGroupInputTitle": "أدخل اسم المجموعة التي تريد إنشاءها ثم اضغط 'أضِف مجموعة جديدة'"
+    }
+}

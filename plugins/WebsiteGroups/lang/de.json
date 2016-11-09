@@ -1,0 +1,12 @@
+{
+    "WebsiteGroups": {
+        "Edit": "Gruppe ändern",
+        "AssignGroup": "Eine Gruppe zu %s hinzufügen",
+        "RenameGroup": "Gruppe umbenennen",
+        "NoGroup": "Keine Gruppe",
+        "NewGroupInputHelp": "Gruppenname",
+        "AddNewGroup": "Neue Gruppe hinzufügen",
+        "Rename": "Umbenennen",
+        "NewGroupInputTitle": "Geben Sie den Namen der Gruppe ein, die Sie erzeugen wollen und klicken Sie 'Neue Gruppe hinzufügen'"
+    }
+}

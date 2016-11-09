@@ -1,0 +1,12 @@
+{
+    "WebsiteGroups": {
+        "Edit": "Redigera grupp",
+        "AssignGroup": "Tilldela grupp till %s",
+        "RenameGroup": "Döp om grupp",
+        "NoGroup": "Ingen grupp",
+        "NewGroupInputHelp": "Gruppnamn",
+        "AddNewGroup": "Lägg till grupp",
+        "Rename": "Döp om",
+        "NewGroupInputTitle": "Ange namnet på gruppen du vill skapa och klicka på 'Lägg till grupp'"
+    }
+}

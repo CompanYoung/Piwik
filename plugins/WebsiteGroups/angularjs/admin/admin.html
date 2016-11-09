@@ -1,0 +1,59 @@
+<div ng-mouseenter="view.showEditButton=true"
+     ng-mouseleave="view.showEditButton=false"
+     class="website_groups_admin">
+
+    <div ng-show="!view.editGroup">
+        <span style="float:left" ng-transclude></span>
+        <img ng-if="view.showEditButton && !view.editGroup"
+             ng-click="view.editGroup=true;view.showEditButton=false"
+             title="{{ website.isGroup ? 'WebsiteGroups_RenameGroup' : 'WebsiteGroups_Edit' | translate }}"
+             class="edit" src="plugins/Morpheus/images/ico_edit.png"/>
+        <br style="clear:both"/>
+    </div>
+
+    <div class="rename_group"
+         ng-if="website.isGroup && view.editGroup"
+         piwik-focus-anywhere-but-here="view.editGroup=false">
+        <input piwik-focus-if="view.editGroup"
+               title="{{ 'WebsiteGroups_NewGroupInputHelp' | translate }}"
+               ng-init="newgroupname=website.label"
+               type="text" ng-model="newgroupname">
+        <input type="submit"
+               ng-show="!isUpdatingGroup"
+               ng-click="renameGroup(website, newgroupname);"
+               value="{{ 'WebsiteGroups_Rename' | translate }}"/>
+        <span ng-class="{'indicator': isUpdatingGroup}"></span>
+    </div>
+
+    <div class="assign_group sites_autocomplete"
+         ng-if="!website.isGroup && view.editGroup">
+        <div piwik-focus-anywhere-but-here="view.editGroup=false"
+             class="custom_select">
+            {{ 'WebsiteGroups_AssignGroup' | translate:website.label }}
+            <div class="custom_select_block" style="background-color: white;">
+
+                <ul class="custom_select_ul_list"
+                    ng-class="{'errorUpdatingGroup': isUpdateGroupError, 'successUpdatingGroup': isUpdateGroupSuccess}">
+                    <li ng-class="{'selectedGroup': website.group == ''}">
+                        <a ng-click="assignGroup(website, '')">{{ 'WebsiteGroups_NoGroup' | translate }}</a>
+                    </li>
+                    <li ng-repeat="groupName in groupModel.groups"
+                        ng-class="{'selectedGroup': website.group == groupName}"
+                        ng-click="assignGroup(website, groupName);">
+                        <a>{{ groupName }}<span ng-class="{'indicator': isUpdatingGroup == groupName}"></span></a>
+                    </li>
+                </ul>
+
+                <div>
+                    <input ng-model="newgroupname" type="text"
+                           title="{{ 'WebsiteGroups_NewGroupInputTitle' | translate }}"
+                           class="new_group_name" placeholder="{{ 'WebsiteGroups_NewGroupInputHelp' | translate }}"/>
+                    <input type="button"
+                           class="add_new_group"
+                           ng-click="groupModel.addGroup(newgroupname);newgroupname='';"
+                           value="{{ 'WebsiteGroups_AddNewGroup' | translate }}">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

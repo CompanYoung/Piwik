@@ -1,0 +1,12 @@
+{
+    "WebsiteGroups": {
+        "Edit": "Upravit skupinu",
+        "AssignGroup": "Přiřadit skupinu k %s",
+        "RenameGroup": "Přejmenovat skupinu",
+        "NoGroup": "Žádná skupina",
+        "NewGroupInputHelp": "Jméno skupiny",
+        "AddNewGroup": "Přidat novou skupinu",
+        "Rename": "Přejmenovat",
+        "NewGroupInputTitle": "Vložte jméno skupiny, kterou chcete vytvořit a klikněte na 'přidat novou skupinu'"
+    }
+}

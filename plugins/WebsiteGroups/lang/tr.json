@@ -1,0 +1,10 @@
+{
+    "WebsiteGroups": {
+        "Edit": "Grubu düzenle",
+        "RenameGroup": "Grubu yeniden adlandır",
+        "NoGroup": "Grup yok",
+        "NewGroupInputHelp": "Adı",
+        "AddNewGroup": "Yeni grup ekle",
+        "Rename": "Yeniden adlandır"
+    }
+}

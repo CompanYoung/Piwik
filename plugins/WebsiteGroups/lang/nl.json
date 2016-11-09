@@ -1,0 +1,12 @@
+{
+    "WebsiteGroups": {
+        "Edit": "Wijzig groep",
+        "AssignGroup": "Wijs een groep toe aan %s",
+        "RenameGroup": "Hernoem groep",
+        "NoGroup": "Geen groep",
+        "NewGroupInputHelp": "Groepsnaam",
+        "AddNewGroup": "Voeg een nieuwe groep toe",
+        "Rename": "Hernoem",
+        "NewGroupInputTitle": "Geef de naam van de groep aan welke je wilt aanmaken en klik op 'add new group'"
+    }
+}

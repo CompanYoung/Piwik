@@ -1,0 +1,23 @@
+{
+    "name": "WebsiteGroups",
+    "version": "0.3.0",
+    "description": "Assign websites to groups in your 'All Websites' dashboard. Useful to get a view by client or category.",
+    "theme": false,
+    "license": "GPL v3+",
+    "authors": [
+        {
+            "name": "Piwik PRO",
+            "email": "contact@piwik.pro",
+            "homepage": "http://piwik.pro"
+        }
+    ],
+    "require": {
+        "piwik": ">=2.16.0"
+    },
+    "support": {
+        "email": "contact@piwik.pro",
+        "issues": "https://github.com/PiwikPRO/plugin-WebsiteGroups/issues"
+    },
+    "keywords": ["groups", "websites"],
+    "homepage": "http://piwik.pro"
+}

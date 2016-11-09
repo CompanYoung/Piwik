@@ -1,0 +1,9 @@
+{
+    "WebsiteGroups": {
+        "Edit": "Përpunoni grupin",
+        "RenameGroup": "Riemërtojeni grupin",
+        "NoGroup": "Pa grup",
+        "NewGroupInputHelp": "Emër grupi",
+        "AddNewGroup": "Shtoni grup të ri"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "WebsiteGroups": {
+        "Edit": "Rediger gruppe",
+        "AssignGroup": "Tildel en gruppe til %s",
+        "RenameGroup": "Omdøb gruppe",
+        "NoGroup": "Ingen gruppe",
+        "NewGroupInputHelp": "Gruppenavn",
+        "AddNewGroup": "Tilføj ny gruppe",
+        "Rename": "Omdøb",
+        "NewGroupInputTitle": "Indtast navnet på gruppen, der skal oprettes, og tryk på 'tilføj ny gruppe'"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "piwikpro/WebsiteGroups",
+    "type": "piwik-plugin",
+    "version": "0.3.0",
+    "description": "Allow users to assign websites to groups in the UI.",
+    "license": "GPL v3+",
+    "homepage": "http://piwik.pro",
+    "authors": [
+        {
+            "name": "PiwikPRO",
+            "email": "contact@piwik.pro"
+        }
+    ],
+    "require": {
+        "piwik/piwik": "2.16.*",
+        "php": ">=5.4"
+    }
+}

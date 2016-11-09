@@ -1,0 +1,12 @@
+{
+    "WebsiteGroups": {
+        "Edit": "グループを編集",
+        "AssignGroup": "グループを %s に割り当ててください",
+        "RenameGroup": "グループ名を変更する",
+        "NoGroup": "グループはありません",
+        "NewGroupInputHelp": "グループ名",
+        "AddNewGroup": "新しいグループを追加",
+        "Rename": "リネーム",
+        "NewGroupInputTitle": "「新規グループの追加」を押して作成するグループ名前を入力してください"
+    }
+}
