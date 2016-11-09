@@ -10,6 +10,7 @@ tables_prefix = "piwik_"
 [General]
 salt = "a81dabd1284727457fca37b73006a5e4"
 trusted_hosts[] = "piwik.youngcrm.com"
+cors_domains[] = *
 
 [Plugins]
 Plugins[] = "CorePluginsAdmin"
