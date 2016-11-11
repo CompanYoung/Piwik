@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e45981e6-9926-4c17-9d34-82a552d7f217" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PiwikTracker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get_visitor_id.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_visitor_id.php" afterPath="$PROJECT_DIR$/get_visitor_id.php" />
     </list>
     <ignored path="Piwik.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="get_visitor_id.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/get_visitor_id.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09237875">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.023094688">
+              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -216,8 +215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/get_visitor_id.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09237875">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.023094688">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
           <folding />
         </state>
       </provider>
